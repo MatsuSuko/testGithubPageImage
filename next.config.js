@@ -4,6 +4,10 @@
 const nextConfig = {
     distDir: 'dist',
     output: 'export',
+    images: {
+        loader: 'custom',
+        loaderFile: './my-loader.ts',
+    },
 
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
     // trailingSlash: true,
@@ -13,6 +17,6 @@ const nextConfig = {
 
     // Optional: Change the output directory `out` -> `dist`
     // distDir: 'dist',
-}
+};
 
 module.exports = nextConfig
