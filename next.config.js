@@ -2,6 +2,7 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+    distDir: 'dist',
     output: 'export',
 
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
